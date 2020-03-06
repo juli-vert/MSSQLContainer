@@ -19,7 +19,7 @@ docker exec -it sql1 /bin/bash
 
 ## Python module
 pip install -r requirements.txt
->>> from msparser import Parser
->>> p = Parser()
->>> p.parse() #insert data
->>> p.getQuery() #retrieve data
+>from msparser import Parser
+>p = Parser()
+>p.parse() #insert data
+>p.getQuery() #retrieve data
