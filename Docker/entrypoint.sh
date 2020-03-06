@@ -1,0 +1,1 @@
+/tmp/dbsetup.sh & /opt/mssql/bin/sqlservr
