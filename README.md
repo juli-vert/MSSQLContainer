@@ -11,7 +11,7 @@ cd Docker
 docker build -t jmssql .  
 docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Julivert82" -p 1433:1433 --name sql1 -d jmssql  
 
-## Access the contained console
+## Access the console of the container
 docker exec -it sql1 /bin/bash  
 
 ## Connect to the local SQL Server
