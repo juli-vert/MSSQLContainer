@@ -1,4 +1,4 @@
-numpy==1.14.5
+numpy==1.22.0
 pandas==0.23.3
 pandas-datareader==0.7.0
 pyodbc==4.0.27
